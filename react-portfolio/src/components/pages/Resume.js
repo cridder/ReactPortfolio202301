@@ -6,34 +6,16 @@ export default function Resume() {
 			<h1>Resume Page</h1>
 			<body>
 				<p>
-					<span>Chris Ridder</span>
-				</p>
-				<p>
-					<span>Beaverton, OR</span>
-				</p>
-				<p>
-					<span>512-619-6724 / </span>
 					<span>
-						<a href="mailto:cjridder@gmail.com">
-							cjridder@gmail.com
-						</a>
-					</span>
-				</p>
-				<p>
-					<span>
+						Chris Ridder | Beaverton, OR | 512-619-6724 |{" "}
+						<a href="mailto:cjridder@gmail.com">cjridder@gmail.com</a> |{" "}
 						<a href="https://www.google.com/url?q=http://www.linkedin.com/in/chrisridder&amp;sa=D&amp;source=editors&amp;ust=1680479131158499&amp;usg=AOvVaw0gNYwqH3K0r1LDZvZ4FIVo">
 							www.linkedin.com/in/chrisridder
 						</a>
 					</span>
 				</p>
 				<p>
-					<span></span>
-				</p>
-				<p>
 					<span>PROFESSIONAL SUMMARY</span>
-				</p>
-				<p>
-					<span></span>
 				</p>
 				<p>
 					<span>
@@ -48,13 +30,7 @@ export default function Resume() {
 					</span>
 				</p>
 				<p>
-					<span></span>
-				</p>
-				<p>
 					<span>PROJECT EXPERIENCE</span>
-				</p>
-				<p>
-					<span></span>
 				</p>
 				<ul>
 					<li>
@@ -77,13 +53,7 @@ export default function Resume() {
 					</li>
 				</ul>
 				<p>
-					<span></span>
-				</p>
-				<p>
 					<span>TECHNICAL SKILLS</span>
-				</p>
-				<p>
-					<span></span>
 				</p>
 				<ul>
 					<li>
@@ -134,13 +104,7 @@ export default function Resume() {
 					</li>
 				</ul>
 				<p>
-					<span></span>
-				</p>
-				<p>
 					<span>PROFESSIONAL EXPERIENCE</span>
-				</p>
-				<p>
-					<span></span>
 				</p>
 				<p>
 					<span>
@@ -180,9 +144,7 @@ export default function Resume() {
 						</span>
 					</li>
 					<li>
-						<span>
-							Focusing on employee engagement and development,
-						</span>
+						<span>Focusing on employee engagement and development,</span>
 						<span>designing</span>
 						<span>&nbsp;and</span>
 						<span>administering</span>
@@ -195,25 +157,21 @@ export default function Resume() {
 					<li>
 						<span>Key projects &amp; accomplishments include:</span>
 					</li>
-				</ul>
-				<ul>
+
 					<li>
 						<span>
 							Created BIM360 standards for data center multi-building projects
 							that used multiple versions of Revit for each building.
 						</span>
 					</li>
-				</ul>
-				<ul>
+
 					<li>
-						<span>Allowed team members</span>
-						<span>to find and update projects quickly</span>
+						<span>
+							Allowed team members to find and update projects quickly
+						</span>
 						<span>.</span>
 					</li>
 				</ul>
-				<p>
-					<span></span>
-				</p>
 				<p>
 					<span>
 						BIM Designs, Inc. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -256,9 +214,6 @@ export default function Resume() {
 					</li>
 				</ul>
 				<p>
-					<span></span>
-				</p>
-				<p>
 					<span>
 						Mazzetti &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -290,23 +245,19 @@ export default function Resume() {
 						</span>
 					</li>
 					<li>
-						<span>
-							Trained staff on TonicDM and Microsoft Teams.
-						</span>
+						<span>Trained staff on TonicDM and Microsoft Teams.</span>
 					</li>
 					<li>
 						<span>Key projects &amp; accomplishments include:</span>
 					</li>
-				</ul>
-				<ul>
+
 					<li>
 						<span>
 							Spearheaded the conversion process of &gt;600 CAD standard details
 							to Revit drafting views.
 						</span>
 					</li>
-				</ul>
-				<ul>
+
 					<li>
 						<span>
 							Eliminated all AutoCAD elements. &nbsp;Increased productivity and
@@ -314,9 +265,6 @@ export default function Resume() {
 						</span>
 					</li>
 				</ul>
-				<p>
-					<span></span>
-				</p>
 				<p>
 					<span>
 						GBD Architects &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -350,23 +298,20 @@ export default function Resume() {
 					<li>
 						<span>Key projects &amp; accomplishments include:</span>
 					</li>
-				</ul>
-				<ul>
+
 					<li>
 						<span>
 							Designed and launched a monthly interactive training program.
 						</span>
 					</li>
-				</ul>
-				<ul>
+
 					<li>
 						<span>
 							Established a baseline of knowledge and standards compliance for
 							&gt;20 end-users.
 						</span>
 					</li>
-				</ul>
-				<ul>
+
 					<li>
 						<span>
 							Created turnkey AutoCAD and Revit deployments and upgrades ready
@@ -374,9 +319,6 @@ export default function Resume() {
 						</span>
 					</li>
 				</ul>
-				<p>
-					<span></span>
-				</p>
 				<p>
 					<span>
 						SSOE Group &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -410,16 +352,14 @@ export default function Resume() {
 					<li>
 						<span>Key projects &amp; accomplishments include:</span>
 					</li>
-				</ul>
-				<ul>
+
 					<li>
 						<span>
 							Improved Autodesk Revit content development for semiconductor
 							process piping systems.
 						</span>
 					</li>
-				</ul>
-				<ul>
+
 					<li>
 						<span>
 							Made accurate information more readily available, increasing
@@ -427,9 +367,6 @@ export default function Resume() {
 						</span>
 					</li>
 				</ul>
-				<p>
-					<span></span>
-				</p>
 				<p>
 					<span>
 						Topcon Solutions Store fka PPI Group &nbsp; &nbsp; &nbsp; &nbsp;
@@ -473,8 +410,7 @@ export default function Resume() {
 					<li>
 						<span>Key projects &amp; accomplishments include:</span>
 					</li>
-				</ul>
-				<ul>
+
 					<li>
 						<span>
 							Developed a custom curriculum to solve client-specific training
@@ -482,9 +418,6 @@ export default function Resume() {
 						</span>
 					</li>
 				</ul>
-				<p>
-					<span></span>
-				</p>
 				<p>
 					<span>
 						O&rsquo;Connell Robertson &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -517,8 +450,7 @@ export default function Resume() {
 					<li>
 						<span>Key projects &amp; accomplishments include:</span>
 					</li>
-				</ul>
-				<ul>
+
 					<li>
 						<span>
 							Led Revit implementation from 2007-2012 for a multi-discipline
@@ -526,17 +458,14 @@ export default function Resume() {
 						</span>
 					</li>
 					<li>
-						<span>
-							Supported &gt;60 Revit projects from 2007-2012.
-						</span>
+						<span>Supported &gt;60 Revit projects from 2007-2012.</span>
 					</li>
 					<li>
 						<span>
 							Developed and launched a monthly interactive training program.
 						</span>
 					</li>
-				</ul>
-				<ul>
+
 					<li>
 						<span>
 							Established a knowledge and standards compliance baseline for
@@ -545,13 +474,7 @@ export default function Resume() {
 					</li>
 				</ul>
 				<p>
-					<span></span>
-				</p>
-				<p>
 					<span>EDUCATION / CERTIFICATIONS</span>
-				</p>
-				<p>
-					<span></span>
 				</p>
 				<p>
 					<span>AUTODESK CERTIFICATIONS:</span>
@@ -567,9 +490,6 @@ export default function Resume() {
 					</span>
 				</p>
 				<p>
-					<span></span>
-				</p>
-				<p>
 					<span>REVIT CERTIFICATIONS:</span>
 				</p>
 				<p>
@@ -577,9 +497,6 @@ export default function Resume() {
 						Revit Architecture Certified Professional; MEP Certified
 						Professional; Structure Certified Professional
 					</span>
-				</p>
-				<p>
-					<span></span>
 				</p>
 				<p>
 					<span>Associate of Applied Science,</span>
@@ -592,13 +509,7 @@ export default function Resume() {
 					<span>Kansas State University</span>
 				</p>
 				<p>
-					<span></span>
-				</p>
-				<p>
 					<span>PUBLICATIONS AND PRESENTATIONS</span>
-				</p>
-				<p>
-					<span></span>
 				</p>
 				<p>
 					<span>AARUG</span>
@@ -612,15 +523,11 @@ export default function Resume() {
 				</p>
 				<p>
 					<span>PdxRUG &ndash;</span>
-					<span>
-						Revit Project Model Planning Checklist (March 2013)
-					</span>
+					<span>Revit Project Model Planning Checklist (March 2013)</span>
 				</p>
 				<p>
 					<span>SeaRUG &ndash;</span>
-					<span>
-						Good Content Needs Great Organization (November 2013)
-					</span>
+					<span>Good Content Needs Great Organization (November 2013)</span>
 				</p>
 				<p>
 					<span>GitHub &ndash;</span>
