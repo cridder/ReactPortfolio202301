@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 
+//www.freecodecamp.org/news/add-form-validation-in-react-app-with-react-hook-form/
 
 // Here we import a helper function that will check if the email is valid
-import { validateEmail } from "../../utils/helpers";
+// https: import { validateEmail } from "../../utils/helpers";
 
 export default function Contact() {
 	// Create state variables for the fields in the form
@@ -33,12 +34,12 @@ export default function Contact() {
 		e.preventDefault();
 
 		// First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
-		if (!validateEmail(email) || !userName) {
-			setErrorMessage("Email or username is invalid");
-			// We want to exit out of this code block if something is wrong so that the user can correct it
-			return;
-			// Then we check to see if the password is not valid. If so, we set an error message regarding the password.
-		}
+		// if (!validateEmail(email) || !userName) {
+		// 	setErrorMessage("Email or username is invalid");
+		// 	// We want to exit out of this code block if something is wrong so that the user can correct it
+		// 	return;
+		// 	// Then we check to see if the password is not valid. If so, we set an error message regarding the password.
+		// }
 
 		alert(`Hello ${userName}`);
 
