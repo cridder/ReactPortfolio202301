@@ -3,7 +3,11 @@ import React from "react";
 export default function Resume() {
 	return (
 		<div>
-			<h1>Resume Page</h1>
+			<h3>
+				<a href="ChrisRidderResume.pdf" download="ChrisRidderResume.pdf">
+					Download Resume
+				</a>
+			</h3>
 			<body>
 				<p>
 					<span>
