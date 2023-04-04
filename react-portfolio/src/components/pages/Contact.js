@@ -1,90 +1,70 @@
-import React, { useState } from "react";
-
-//www.freecodecamp.org/news/add-form-validation-in-react-app-with-react-hook-form/
-
-// Here we import a helper function that will check if the email is valid
-// https: import { validateEmail } from "../../utils/helpers";
+import React from "react";
+import { Form, Button } from "semantic-ui-react";
+import { useForm } from "react-hook-form";
 
 export default function Contact() {
-	// Create state variables for the fields in the form
-	// We are also setting their initial values to an empty string
-	const [email, setEmail] = useState("");
-	const [userName, setUserName] = useState("");
-	const [password, setPassword] = useState("");
-	const [errorMessage, setErrorMessage] = useState("");
-
-	const handleInputChange = (e) => {
-		// Getting the value and name of the input which triggered the change
-		const { target } = e;
-		const inputType = target.name;
-		const inputValue = target.value;
-
-		// Based on the input type, we set the state of either email, username, and password
-		if (inputType === "email") {
-			setEmail(inputValue);
-		} else if (inputType === "userName") {
-			setUserName(inputValue);
-		} else {
-			setPassword(inputValue);
-		}
+	const {
+		register,
+		handleSubmit,
+		formState: { errors },
+	} = useForm();
+	const onSubmit = (data) => {
+		console.log(data);
 	};
-
-	const handleFormSubmit = (e) => {
-		// Preventing the default behavior of the form submit (which is to refresh the page)
-		e.preventDefault();
-
-		// First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
-		// if (!validateEmail(email) || !userName) {
-		// 	setErrorMessage("Email or username is invalid");
-		// 	// We want to exit out of this code block if something is wrong so that the user can correct it
-		// 	return;
-		// 	// Then we check to see if the password is not valid. If so, we set an error message regarding the password.
-		// }
-
-		alert(`Hello ${userName}`);
-
-		// If everything goes according to plan, we want to clear out the input after a successful registration.
-		setUserName("");
-		setPassword("");
-		setEmail("");
-	};
-
 	return (
 		<div>
-			{/* <p>Hello {userName}</p> */}
-			<form className="form">
-				<input
-					value={email}
-					name="email"
-					onChange={handleInputChange}
-					type="email"
-					placeholder="email"
-				/>
-				<input
-					value={userName}
-					name="userName"
-					onChange={handleInputChange}
-					type="text"
-					placeholder="username"
-				/>
-				<input
-					value={password}
-					name="password"
-					onChange={handleInputChange}
-					type="password"
-					placeholder="Password"
-				/>
-				<button type="button" onClick={handleFormSubmit}>
-					Submit
-				</button>
-			</form>
-			{errorMessage && (
-				<div>
-					<p className="error-text">{errorMessage}</p>
-				</div>
-			)}
+			<Form onSubmit={handleSubmit(onSubmit)}>
+				<Form.Field>
+					<label>First Name</label>
+					<input
+						placeholder="First Name"
+						type="text"
+						{...register("firstName", { required: true, maxLength: 10 })}
+					/>
+				</Form.Field>
+				{errors.firstName && (
+					<p className="text-error">Please check the First Name</p>
+				)}
+				<Form.Field>
+					<label>Last Name</label>
+					<input
+						placeholder="Last Name"
+						type="text"
+						{...register("lastName", { required: true, maxLength: 10 })}
+					/>
+				</Form.Field>
+				{errors.lastName && (
+					<p className="text-error">Please check the Last Name</p>
+				)}
+				<Form.Field>
+					<label>Email</label>
+					<input
+						placeholder="Email"
+						type="email"
+						{...register("email", {
+							required: true,
+							pattern:
+								/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+						})}
+					/>
+				</Form.Field>
+				{errors.email && <p className="text-error">Please check the Email</p>}
+				<Form.Field>
+					<label>Password</label>
+					<input
+						placeholder="Password"
+						type="password"
+						{...register("password", {
+							required: true,
+							pattern: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,15}$/,
+						})}
+					/>
+				</Form.Field>
+				{errors.password && (
+					<p className="text-error">Please check the Password</p>
+				)}
+				<Button type="submit">Submit</Button>
+			</Form>
 		</div>
 	);
 }
-
-// export default Form;
