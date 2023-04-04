@@ -3,8 +3,8 @@ import React from "react";
 export default function About() {
 	return (
 		<div>
+			<h1></h1>
 			<p>
-				<h1>About</h1>
 				Chris Ridder has guided students, business owners, and professionals
 				through the evolution of design software features, benefits, standards,
 				training, and documentation. Building a base of user knowledge, training

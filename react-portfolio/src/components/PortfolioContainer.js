@@ -3,8 +3,12 @@ import NavTabs from "./NavTabs";
 // import Home from "./pages/Z_NotUsed_Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/__Contact";
+import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+
+// import "./index.css";
 
 export default function PortfolioContainer() {
 	// When the page loads, set the document title to something specific to this app. Runs once because of optional dependency array
@@ -48,14 +52,23 @@ export default function PortfolioContainer() {
 			{renderPage()}
 
 			{/* FOOTER */}
-			<footer class="text-center fixed-bottom ">
-				<div class="container p-4 pb-0">
-					<section class="mb-4">
-						{/* <!-- Linkedin --> */}
-						<a href="#!"> Linkedin </a>
-						{/* <!-- Github --> */}
-						<a href="#!"> Github </a>
-					</section>
+
+			<footer class="text-center fixed-bottom">
+				<div class="container">
+					<div class="row">
+						<div>
+							<div>
+								<a href="https://github.com/cridder">
+									<FontAwesomeIcon icon={faGithub} />
+								</a>
+								<h5></h5>
+								<a href="https://www.linkedin.com/in/chrisridder">
+									<FontAwesomeIcon icon={faLinkedin} />
+								</a>
+								<h5></h5>
+							</div>
+						</div>
+					</div>
 				</div>
 			</footer>
 
