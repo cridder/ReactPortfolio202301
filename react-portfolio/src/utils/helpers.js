@@ -8,5 +8,3 @@ export function validateMessage(message) {
 	const re = /./;
 	return re.test(String(message)());
 }
-
-

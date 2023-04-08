@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import Project from "./Project";
 const BrokenDoor = require("../images/Portfolio-BrokenDoor.png");
 const JustAnotherTextEditor = require("../images/Portfolio-JustAnotherTextEditor.png");
@@ -6,7 +6,7 @@ const NoteTaker = require("../images/Portfolio-NoteTaker.png");
 const TechBlog = require("../images/Portfolio-TechBlog.png");
 
 export default function Portfolio() {
-  const projects = [
+	const projects = [
 		{
 			title: "BrokenDoor",
 			description: "BrokenDoor",
@@ -37,15 +37,13 @@ export default function Portfolio() {
 		},
 	];
 
-  return (
-    <section className="container my-5">
-      <h1 className="text-center">Portfolio</h1>
-      <hr />
-      <div className="row">
-        {projects.map((project, index) => (
-         <Project project = {project} key= {"project" + index}/>
-        ))}
-      </div>
-    </section>
-  );
-};
+	return (
+		<section className="container my-5">
+			<div className="row">
+				{projects.map((project, index) => (
+					<Project project={project} key={"project" + index} />
+				))}
+			</div>
+		</section>
+	);
+}

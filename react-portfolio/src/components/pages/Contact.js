@@ -97,6 +97,6 @@ export default function Contact() {
 			</div>
 		</section>
 	);
-};
+}
 
 // export default Contact;
