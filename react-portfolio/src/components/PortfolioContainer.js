@@ -5,8 +5,7 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import Footer from "./pages/Footer";
 
 // import "./index.css";
 
@@ -51,9 +50,9 @@ export default function PortfolioContainer() {
 			{/* Here we are calling the renderPage method which will return a component  */}
 			{renderPage()}
 
-			{/* FOOTER */}
+			<Footer />
 
-			<footer class="text-center fixed-bottom">
+			{/* <footer class="text-center fixed-bottom">
 				<div class="container">
 					<div class="row">
 						<div>
@@ -70,9 +69,8 @@ export default function PortfolioContainer() {
 						</div>
 					</div>
 				</div>
-			</footer>
+			</footer> */}
 
-			{/* FOOTER */}
 		</div>
 		// END MAIN DIV
 	);
