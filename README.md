@@ -1,12 +1,22 @@
-# ReactPortfolio202301
-ReactPortfolio202301
+# React Portfolio
 
-https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/
+# Description
 
-https://cridder.github.io/ReactPortfolio202301/
-
-https://www.freecodecamp.org/news/add-form-validation-in-react-app-with-react-hook-form/
+A react based porfolio website - https://cridder.github.io/ReactPortfolio202301
+Repo - https://github.com/cridder/ReactPortfolio202301
 
 
 
-fab fa-google
+## Installation
+
+Clone and use your knowledge
+
+## Questions
+
+ASK
+
+https://github.com/cridder
+
+cjridder@gmail.com
+
+## END
