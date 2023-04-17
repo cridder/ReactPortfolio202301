@@ -4,9 +4,18 @@ const BrokenDoor = require("../images/Portfolio-BrokenDoor.png");
 const JustAnotherTextEditor = require("../images/Portfolio-JustAnotherTextEditor.png");
 const NoteTaker = require("../images/Portfolio-NoteTaker.png");
 const TechBlog = require("../images/Portfolio-TechBlog.png");
+const HelloStranger = require("../images/Portfolio-HelloStranger.png");
 
 export default function Portfolio() {
 	const projects = [
+		{
+			title: "HelloStranger",
+			description:
+				"  Welcome to Hello Stranger! Just like a traditional library, we are a place of knowledge and exploration. But instead of books, our library is filled with human stories. Our goal is to break down barriers and promote understanding by connecting you with individuals who have unique experiences and perspectives. Whether you're here to learn, grow, or just connect with others, we're thrilled to have you as a part of our community. So come on in, browse our shelves, and discover the human stories waiting to be heard. We can't wait to share them with you!",
+			image: HelloStranger,
+			github: "https://github.com/cridder/project-3-hello-stranger",
+			deploy: "https://hello--stranger.herokuapp.com",
+		},
 		{
 			title: "BrokenDoor",
 			description:
